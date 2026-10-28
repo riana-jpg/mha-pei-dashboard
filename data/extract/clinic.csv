@@ -1,0 +1,31 @@
+month,site,encounters,days
+2025-08-01,Ft Ross,10.0,3.0
+2025-08-01,Manchester,20.0,4.0
+2025-08-01,PA Physicals,11.0,1.0
+2025-09-01,Ft Ross,3.0,2.0
+2025-09-01,Manchester,16.0,4.0
+2025-10-01,Ft Ross,4.0,3.0
+2025-10-01,Manchester,12.0,6.0
+2025-11-01,Manchester,11.0,4.5
+2025-11-01,Flu Shots,51.0,1.0
+2025-12-01,Manchester,5.0,2.0
+2026-01-01,Manchester,4.0,3.0
+2026-02-01,Manchester,4.0,6.0
+2026-02-01,Pt Arena,4.0,2.0
+2026-03-01,Pt Arena,3.0,5.0
+2026-03-01,Manchester,12.0,9.0
+2026-04-01,Manchester,2.0,10.0
+2026-04-01,Pt Arena,15.0,2.0
+2026-05-01,Manchester,9.0,4.0
+2026-05-01,Pt Arena HS,3.0,5.0
+2026-05-01,Downtown Point Arena,2.0,2.0
+2026-05-01,2Fish,0.0,1.5
+2026-05-01,Pt Arena Apts,2.0,2.0
+2026-06-01,Point Arena HS,25.0,10.0
+2026-06-01,Two Fish Bakery,7.0,4.0
+2026-06-01,Downtown Point Arena,13.0,4.0
+2026-06-01,Manchester Elementary,0.0,0.0
+2026-07-01,Manchester Elementary,0.0,2.0
+2026-07-01,Point Arena HS,25.0,7.0
+2026-07-01,"Point Arena Port Rd (per Riana's 8/20/26 email -- was ""Downtown Point Arena"")",12.0,2.0
+2026-07-01,Two Fish Bakery,11.0,4.0

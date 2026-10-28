@@ -1,0 +1,135 @@
+month,resource,count
+2025-04-01,Narcan,16.0
+2025-04-01,Blood Pressure Cuff,3.0
+2025-04-01,COVID Home Tests,22.0
+2025-04-01,Lock Bag,1.0
+2025-04-01,Harm Reduction Bag,1.0
+2025-04-01,Glucometer Test Strip,1.0
+2025-05-01,Glucometer,1.0
+2025-05-01,Glucometer Lancets,1.0
+2025-05-01,Glucometer Test Strip,1.0
+2025-05-01,Glucometer Test Strips,1.0
+2025-05-01,Lock Bag,1.0
+2025-05-01,Pill Splitter,1.0
+2025-05-01,Thermometer,1.0
+2025-05-01,Blood Pressure Cuff,2.0
+2025-05-01,Harm Reduction Bag,6.0
+2025-05-01,Narcan,10.0
+2025-05-01,COVID Home Tests,11.0
+2025-06-01,Narcan,46.0
+2025-06-01,COVID Home Tests,12.0
+2025-06-01,Fentanyl Test Strip,6.0
+2025-06-01,Glucometer Test Strip,1.0
+2025-06-01,Blood Pressure Cuff,2.0
+2025-06-01,Lock Bag,1.0
+2025-06-01,Pill Box,1.0
+2025-06-01,Harm Reduction Bag,5.0
+2025-07-01,Glucometer Test Strip,1.0
+2025-07-01,Blood Pressure Cuff,1.0
+2025-07-01,Fentanyl Test Strip,21.0
+2025-07-01,Narcan,62.0
+2025-08-01,Fentanyl Test Strip,11.0
+2025-08-01,Blood Pressure Cuff,5.0
+2025-08-01,Narcan,160.0
+2025-08-01,Blood Glucose Monitor,2.0
+2025-08-01,Pill Box,3.0
+2025-08-01,Glucometer Test Strip,1.0
+2025-09-01,Narcan,248.0
+2025-09-01,Fentanyl Test Strip,118.0
+2025-09-01,Glucometer Test Strip,6.0
+2025-09-01,Blood Pressure Cuff,5.0
+2025-09-01,Blood Glucose Monitor,2.0
+2025-09-01,Pill Box,3.0
+2025-09-01,Lock Bag,2.0
+2025-09-01,Glucometer Lancet,2.0
+2025-09-01,Thermometer,1.0
+2025-09-01,Sharps Container,3.0
+2025-10-01,Fentanyl Test Strip,20.0
+2025-10-01,Blood Pressure Cuff,7.0
+2025-10-01,Narcan,110.0
+2025-10-01,Pill Box,3.0
+2025-10-01,Harm Reduction Bag,4.0
+2025-10-01,Pill Splitter,1.0
+2025-11-01,Narcan,96.0
+2025-11-01,Blood Pressure Cuff,7.0
+2025-11-01,Blood Glucose Monitor,5.0
+2025-11-01,Oximeter,2.0
+2025-11-01,Harm Reduction Bag,4.0
+2025-11-01,Pill Box,2.0
+2025-11-01,Glucometer Test Strip,2.0
+2025-11-01,Lock Bag,2.0
+2025-11-01,Pill Splitter,1.0
+2025-11-01,Thermometer,2.0
+2025-11-01,Glucometer Lancet,2.0
+2025-12-01,Pill Box,2.0
+2025-12-01,Pulse Oximeter,1.0
+2025-12-01,Blood Pressure Cuff,1.0
+2025-12-01,Glucometer Lancet,1.0
+2025-12-01,Glucometer Test Strip,2.0
+2025-12-01,Harm Reduction Bag,5.0
+2025-12-01,Narcan,52.0
+2026-01-01,Sharps Container,1.0
+2026-01-01,Harm Reduction Bag,2.0
+2026-01-01,Pill Box,2.0
+2026-01-01,Blood Pressure Cuff,3.0
+2026-01-01,Narcan,46.0
+2026-02-01,Fentanyl Test Strip,25.0
+2026-02-01,COVID Home Tests,12.0
+2026-02-01,Blood Pressure Cuff,5.0
+2026-02-01,Measuring Cup,4.0
+2026-02-01,Harm Reduction Bag,3.0
+2026-02-01,Narcan,60.0
+2026-02-01,Glucometer Test Strip,2.0
+2026-02-01,Glucometer Lancet,2.0
+2026-02-01,Pill Box,2.0
+2026-02-01,Thermometer,1.0
+2026-02-01,Sharps Container,1.0
+2026-02-01,Portion Plate,2.0
+2026-03-01,Narcan,96.0
+2026-03-01,Harm Reduction Bag,9.0
+2026-03-01,Fentanyl Test Strip,17.0
+2026-03-01,Glucometer Test Strip,2.0
+2026-03-01,Pill Box,1.0
+2026-03-01,Oximeter,1.0
+2026-03-01,Sharps Container,2.0
+2026-04-01,Lock Bag,2.0
+2026-04-01,Pill Box,2.0
+2026-04-01,Blood Pressure Cuff,6.0
+2026-04-01,Harm Reduction Bag,9.0
+2026-04-01,Narcan,102.0
+2026-05-01,Narcan,52.0
+2026-05-01,Blood Pressure Cuff,4.0
+2026-05-01,Harm Reduction Bag,4.0
+2026-05-01,Wound Care Kit,3.0
+2026-05-01,Glucometer Test Strip,1.0
+2026-05-01,Glucometer Lancet,1.0
+2026-05-01,Hygiene Kit,1.0
+2026-05-01,Lock Bag,1.0
+2026-05-01,Pill Box,1.0
+2026-05-01,Blood Glucose Monitor,2.0
+2026-06-01,Narcan,38.0
+2026-06-01,Blood Pressure Cuff,5.0
+2026-06-01,Sharps Container,3.0
+2026-06-01,Blood Glucose Monitor,4.0
+2026-06-01,Glucometer Test Strip,2.0
+2026-06-01,Glucometer Lancet,1.0
+2026-06-01,Pill Splitter,1.0
+2026-06-01,Wound Care Kit,1.0
+2026-06-01,Pill Box,3.0
+2026-07-01,Pill Box,1.0
+2026-07-01,Harm Reduction Bag,8.0
+2026-07-01,Blood Pressure Cuff,4.0
+2026-07-01,Glucometer Test Strip,3.0
+2026-07-01,Sharps Container,2.0
+2026-07-01,Blood Glucose Monitor,1.0
+2026-07-01,Thermometer,1.0
+2026-07-01,Narcan,38.0
+2026-08-01,Blood Glucose Monitor,4.0
+2026-08-01,Portion Plate,4.0
+2026-08-01,Blood Pressure Cuff,3.0
+2026-08-01,Harm Reduction Bag,2.0
+2026-08-01,Pill Box,2.0
+2026-08-01,Glucometer Test Strip,1.0
+2026-08-01,Measuring Cup,1.0
+2026-08-01,Narcan,66.0
+2026-08-01,Wound Care Kit,2.0

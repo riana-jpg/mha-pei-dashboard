@@ -1,0 +1,19 @@
+month,destination,count
+2026-01-01,RCMS,1.0
+2026-01-01,MHA,2.0
+2026-01-01,Misc. Other,5.0
+2026-01-01,Pharmacy,1.0
+2026-02-01,Misc. Other,1.0
+2026-02-01,MHA,2.0
+2026-03-01,RCMS,1.0
+2026-03-01,Misc. Other,3.0
+2026-04-01,RCMS,2.0
+2026-04-01,Other,5.0
+2026-04-01,MHA,8.0
+2026-05-01,Other,7.0
+2026-05-01,MHA (Self-Referral),9.0
+2026-06-01,Other,2.0
+2026-06-01,MHA (Self-Referral),3.0
+2026-07-01,RCMS,2.0
+2026-07-01,MHA (Self-Referral),4.0
+2026-08-01,MHA (Self-Referral),1.0

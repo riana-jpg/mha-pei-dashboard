@@ -1,0 +1,494 @@
+month,program,activity,count
+2025-04-01,Care Coordination,Mail-Fax,1.0
+2025-04-01,Care Coordination,ECM Check In,74.0
+2025-04-01,Care Coordination,Patient Advocacy,50.0
+2025-04-01,Care Coordination,Peer Recovery 1 On 1,37.0
+2025-04-01,Care Coordination,CalAIM Lead Outreach,35.0
+2025-04-01,Care Coordination,Phone Call,29.0
+2025-04-01,Care Coordination,Other Service,18.0
+2025-04-01,Care Coordination,PHQ Screening,15.0
+2025-04-01,Care Coordination,Interpreter,15.0
+2025-04-01,Care Coordination,Blood Pressure Screening,14.0
+2025-04-01,Care Coordination,Legal Assistance,11.0
+2025-04-01,Care Coordination,Established Health Insurance,8.0
+2025-04-01,Care Coordination,CalAIM Care Plan Update,7.0
+2025-04-01,Care Coordination,Appointment Coordination,7.0
+2025-04-01,Care Coordination,Email,1.0
+2025-04-01,Care Coordination,AUDIT-C Screening,6.0
+2025-04-01,Care Coordination,Housing Paperwork,2.0
+2025-04-01,Care Coordination,Administrative Client Assistance,2.0
+2025-04-01,Care Coordination,Intake Form,2.0
+2025-04-01,Care Coordination,ROI,2.0
+2025-04-01,Care Coordination,Medication Education,2.0
+2025-04-01,Care Coordination,DAST-10 Screening,6.0
+2025-04-01,Care Coordination,Transportation,3.0
+2025-04-01,Care Coordination,CC Financial Assistance,3.0
+2025-04-01,Care Coordination,Text,4.0
+2025-04-01,Care Coordination,Food Bank Coordination,4.0
+2025-04-01,Care Coordination,Health Education,5.0
+2025-04-01,Care Coordination,Angel Fund Request,2.0
+2025-05-01,Care Coordination,CalAIM TAR Renewal,6.0
+2025-05-01,Care Coordination,Legal Assistance,6.0
+2025-05-01,Care Coordination,CalAIM Care Plan Update,12.0
+2025-05-01,Care Coordination,Appointment Coordination,12.0
+2025-05-01,Care Coordination,Peer Recovery 1 On 1,14.0
+2025-05-01,Care Coordination,Blood Pressure Screening,18.0
+2025-05-01,Care Coordination,Other Service,28.0
+2025-05-01,Care Coordination,Phone Call,27.0
+2025-05-01,Care Coordination,Housing Paperwork,5.0
+2025-05-01,Care Coordination,CalAIM Lead Outreach,32.0
+2025-05-01,Care Coordination,Patient Advocacy,46.0
+2025-05-01,Care Coordination,ECM Check In,80.0
+2025-05-01,Care Coordination,PHQ Screening,18.0
+2025-05-01,Care Coordination,Text,4.0
+2025-05-01,Care Coordination,Interpreter,12.0
+2025-05-01,Care Coordination,AUDIT-C Screening,4.0
+2025-05-01,Care Coordination,Access Point,1.0
+2025-05-01,Care Coordination,DAST-10 Screening,4.0
+2025-05-01,Care Coordination,A1C Screening,2.0
+2025-05-01,Care Coordination,Transportation,2.0
+2025-05-01,Care Coordination,ECM TAR Submission,2.0
+2025-05-01,Care Coordination,Health Education,3.0
+2025-05-01,Care Coordination,Food Bank Coordination,3.0
+2025-05-01,Care Coordination,Established Health Insurance,3.0
+2025-05-01,Care Coordination,Medication Education,3.0
+2025-05-01,Care Coordination,Medication Pick-Up,3.0
+2025-05-01,Care Coordination,Resource Distribution,3.0
+2025-05-01,Care Coordination,Food Paperwork,3.0
+2025-05-01,Care Coordination,Email,4.0
+2025-05-01,Care Coordination,ROI,3.0
+2025-06-01,Care Coordination,PHQ Screening,17.0
+2025-06-01,Care Coordination,Established Health Insurance,8.0
+2025-06-01,Care Coordination,Housing Paperwork,9.0
+2025-06-01,Care Coordination,CalAIM Care Plan Update,9.0
+2025-06-01,Care Coordination,Interpreter,17.0
+2025-06-01,Care Coordination,ECM Check In,78.0
+2025-06-01,Care Coordination,Appointment Coordination,19.0
+2025-06-01,Care Coordination,Peer Recovery 1 On 1,19.0
+2025-06-01,Care Coordination,Other Service,41.0
+2025-06-01,Care Coordination,Phone Call,44.0
+2025-06-01,Care Coordination,Patient Advocacy,60.0
+2025-06-01,Care Coordination,AUDIT-C Screening,7.0
+2025-06-01,Care Coordination,Blood Pressure Screening,18.0
+2025-06-01,Care Coordination,Health Education,7.0
+2025-06-01,Care Coordination,Food Bank Coordination,8.0
+2025-06-01,Care Coordination,DAST-10 Screening,6.0
+2025-06-01,Matter of Balance,Matter of Balance class,40.0
+2025-06-01,Care Coordination,Resource Distribution,1.0
+2025-06-01,Care Coordination,Access Point,1.0
+2025-06-01,Care Coordination,Unemployment Paperwork,1.0
+2025-06-01,Care Coordination,Transportation,1.0
+2025-06-01,Care Coordination,ECM TAR Submission,1.0
+2025-06-01,Care Coordination,Medication Education,1.0
+2025-06-01,Care Coordination,Text,6.0
+2025-06-01,Care Coordination,Legal Assistance,2.0
+2025-06-01,Care Coordination,Intake Form,3.0
+2025-06-01,Care Coordination,ROI,3.0
+2025-06-01,Care Coordination,Food Paperwork,4.0
+2025-06-01,Care Coordination,Medication Pick-Up,4.0
+2025-06-01,Care Coordination,Mail-Fax,4.0
+2025-06-01,Care Coordination,A1C Screening,2.0
+2025-07-01,Care Coordination,Medication Pick-Up,7.0
+2025-07-01,Care Coordination,CalAIM Care Plan Update,8.0
+2025-07-01,Care Coordination,PHQ Screening,10.0
+2025-07-01,Care Coordination,Interpreter,11.0
+2025-07-01,Care Coordination,Appointment Coordination,11.0
+2025-07-01,Care Coordination,Phone Call,23.0
+2025-07-01,Care Coordination,Peer Recovery 1 On 1,21.0
+2025-07-01,Care Coordination,Food Paperwork,6.0
+2025-07-01,Care Coordination,Other Service,34.0
+2025-07-01,Care Coordination,Patient Advocacy,42.0
+2025-07-01,Care Coordination,ECM Check In,74.0
+2025-07-01,Care Coordination,Blood Pressure Screening,11.0
+2025-07-01,Care Coordination,Food Bank Coordination,5.0
+2025-07-01,Care Coordination,Established Health Insurance,9.0
+2025-07-01,Care Coordination,Text,3.0
+2025-07-01,Matter of Balance,Matter of Balance class,40.0
+2025-07-01,Care Coordination,ROI,1.0
+2025-07-01,Care Coordination,CC Financial Assistance,1.0
+2025-07-01,Care Coordination,Medication Education,1.0
+2025-07-01,Care Coordination,Intake Form,1.0
+2025-07-01,Care Coordination,A1C Screening,1.0
+2025-07-01,Care Coordination,Health Education,4.0
+2025-07-01,Care Coordination,Access Point,2.0
+2025-07-01,Care Coordination,Transportation,3.0
+2025-07-01,Care Coordination,Legal Assistance,3.0
+2025-07-01,Care Coordination,AUDIT-C Screening,3.0
+2025-07-01,Care Coordination,DAST-10 Screening,3.0
+2025-07-01,Care Coordination,Housing Paperwork,2.0
+2025-08-01,Care Coordination,Established Health Insurance,6.0
+2025-08-01,Care Coordination,Food Paperwork,8.0
+2025-08-01,Care Coordination,PHQ Screening,8.0
+2025-08-01,Care Coordination,Text,9.0
+2025-08-01,Care Coordination,Appointment Coordination,10.0
+2025-08-01,Care Coordination,CalAIM Care Plan Update,11.0
+2025-08-01,Care Coordination,Peer Recovery 1 On 1,17.0
+2025-08-01,Care Coordination,Interpreter,16.0
+2025-08-01,Care Coordination,Other Service,29.0
+2025-08-01,Care Coordination,Patient Advocacy,40.0
+2025-08-01,Care Coordination,Phone Call,44.0
+2025-08-01,Care Coordination,Legal Assistance,6.0
+2025-08-01,Care Coordination,Blood Pressure Screening,12.0
+2025-08-01,Care Coordination,ECM Check In,78.0
+2025-08-01,Care Coordination,Food Bank Coordination,6.0
+2025-08-01,Care Coordination,Health Education,6.0
+2025-08-01,Care Coordination,A1C Screening,6.0
+2025-08-01,Matter of Balance,Matter of Balance class,9.0
+2025-08-01,Care Coordination,Resource Distribution,1.0
+2025-08-01,Care Coordination,Cholesterol Screening,1.0
+2025-08-01,Care Coordination,Transportation,1.0
+2025-08-01,Care Coordination,ROI,1.0
+2025-08-01,Care Coordination,Intake Form,1.0
+2025-08-01,Care Coordination,Email,2.0
+2025-08-01,Care Coordination,Access Point,2.0
+2025-08-01,Care Coordination,CT First Call,2.0
+2025-08-01,Care Coordination,DAST-10 Screening,3.0
+2025-08-01,Care Coordination,Housing Paperwork,3.0
+2025-08-01,Care Coordination,AUDIT-C Screening,3.0
+2025-08-01,Care Coordination,Medication Pick-Up,4.0
+2025-09-01,Care Coordination,AUDIT-C Screening,5.0
+2025-09-01,Care Coordination,Legal Assistance,6.0
+2025-09-01,Care Coordination,Food Paperwork,7.0
+2025-09-01,Care Coordination,Medication Pick-Up,7.0
+2025-09-01,Care Coordination,Interpreter,10.0
+2025-09-01,Care Coordination,Appointment Coordination,13.0
+2025-09-01,Care Coordination,Established Health Insurance,16.0
+2025-09-01,Care Coordination,Text,18.0
+2025-09-01,Care Coordination,PHQ Screening,19.0
+2025-09-01,Care Coordination,Blood Pressure Screening,18.0
+2025-09-01,Care Coordination,DAST-10 Screening,5.0
+2025-09-01,Care Coordination,Other Service,28.0
+2025-09-01,Care Coordination,Patient Advocacy,53.0
+2025-09-01,Care Coordination,Phone Call,58.0
+2025-09-01,Care Coordination,ECM Check In,85.0
+2025-09-01,Care Coordination,CC,403.0
+2025-09-01,Care Coordination,Peer Recovery 1 On 1,18.0
+2025-09-01,Care Coordination,Resource Distribution,3.0
+2025-09-01,Care Coordination,CalAIM Care Plan Update,10.0
+2025-09-01,Care Coordination,Health Education,3.0
+2025-09-01,Matter of Balance,MOB Class #2,9.0
+2025-09-01,Care Coordination,ROI,3.0
+2025-09-01,Care Coordination,CT Home Visit - Initial,1.0
+2025-09-01,Care Coordination,CT First Call,6.0
+2025-09-01,Care Coordination,CT,7.0
+2025-09-01,Care Coordination,Housing Paperwork,1.0
+2025-09-01,Care Coordination,Intake Form,1.0
+2025-09-01,Care Coordination,Access Point,1.0
+2025-09-01,Care Coordination,Email,1.0
+2025-09-01,Matter of Balance,MOB Class #1,8.0
+2025-09-01,Care Coordination,Cholesterol Screening,1.0
+2025-09-01,Care Coordination,Mail-Fax,1.0
+2025-09-01,Care Coordination,Food Bank Coordination,2.0
+2025-09-01,Care Coordination,ECM TAR Submission,2.0
+2025-09-01,Care Coordination,Unemployment Paperwork,2.0
+2025-09-01,Care Coordination,Transportation,2.0
+2025-09-01,Care Coordination,A1C Screening,3.0
+2025-09-01,Care Coordination,Medication Education,1.0
+2025-10-01,Care Coordination,AUDIT-C Screening,3.0
+2025-10-01,Care Coordination,DAST-10 Screening,3.0
+2025-10-01,Care Coordination,Food Bank Coordination,6.0
+2025-10-01,Care Coordination,Established Health Insurance,8.0
+2025-10-01,Care Coordination,CalAIM Care Plan Update,8.0
+2025-10-01,Care Coordination,Blood Pressure Screening,9.0
+2025-10-01,Care Coordination,PHQ Screening,11.0
+2025-10-01,Care Coordination,Interpreter,18.0
+2025-10-01,Care Coordination,Appointment Coordination,17.0
+2025-10-01,Care Coordination,Peer Recovery 1 On 1,17.0
+2025-10-01,Care Coordination,Other Service,19.0
+2025-10-01,Care Coordination,Phone Call,39.0
+2025-10-01,Care Coordination,Patient Advocacy,40.0
+2025-10-01,Care Coordination,ECM Check In,79.0
+2025-10-01,Care Coordination,Legal Assistance,2.0
+2025-10-01,Care Coordination,Text,15.0
+2025-10-01,Care Coordination,ECM TAR Submission,2.0
+2025-10-01,Care Coordination,Resource Distribution,1.0
+2025-10-01,Care Coordination,Medication Pick-Up,2.0
+2025-10-01,Care Coordination,ROI,2.0
+2025-10-01,Matter of Balance,MOB Class #6,9.0
+2025-10-01,Matter of Balance,MOB Class #5,12.0
+2025-10-01,Matter of Balance,MOB Class #4,10.0
+2025-10-01,Matter of Balance,MOB Class #3,11.0
+2025-10-01,Care Transitions,CT Home Visit - Initial,1.0
+2025-10-01,Care Transitions,CT 30 Day Check In,1.0
+2025-10-01,Care Transitions,CT First Call,3.0
+2025-10-01,Care Transitions,CT Home Visit - Additional,1.0
+2025-10-01,Care Coordination,Intake Form,1.0
+2025-10-01,Care Coordination,Unemployment Paperwork,1.0
+2025-10-01,Care Coordination,Administrative Client Assistance,1.0
+2025-10-01,Care Coordination,Access Point,1.0
+2025-10-01,Care Coordination,Food Paperwork,2.0
+2025-10-01,Care Coordination,Housing Paperwork,1.0
+2025-10-01,Care Coordination,A1C Screening,2.0
+2025-11-01,Care Coordination,Patient Advocacy,27.0
+2025-11-01,Care Coordination,PHQ Screening,8.0
+2025-11-01,Care Coordination,Established Health Insurance,9.0
+2025-11-01,Care Coordination,CalAIM Care Plan Update,9.0
+2025-11-01,Care Coordination,Appointment Coordination,10.0
+2025-11-01,Care Coordination,Text,11.0
+2025-11-01,Care Coordination,Food Bank Coordination,6.0
+2025-11-01,Care Coordination,Blood Pressure Screening,11.0
+2025-11-01,Care Coordination,Peer Recovery 1 On 1,12.0
+2025-11-01,Care Coordination,Other Service,13.0
+2025-11-01,Care Coordination,Interpreter,10.0
+2025-11-01,Care Coordination,AUDIT-C Screening,3.0
+2025-11-01,Care Coordination,Resource Distribution,2.0
+2025-11-01,Care Coordination,A1C Screening,3.0
+2025-11-01,Care Coordination,Medication Education,2.0
+2025-11-01,Care Coordination,Access Point,2.0
+2025-11-01,Care Coordination,Transportation,2.0
+2025-11-01,Care Coordination,Health Education,2.0
+2025-11-01,Care Coordination,Cholesterol Screening,1.0
+2025-11-01,Care Coordination,Email,1.0
+2025-11-01,Care Coordination,Legal Assistance,1.0
+2025-11-01,Care Transitions,CT First Call,2.0
+2025-11-01,Matter of Balance,MOB Class #7,10.0
+2025-11-01,Matter of Balance,MOB Class #8,8.0
+2025-11-01,Care Coordination,DAST-10 Screening,3.0
+2025-11-01,Care Coordination,Mail-Fax,1.0
+2025-11-01,Care Coordination,Phone Call,38.0
+2025-11-01,Care Coordination,ECM Check In,84.0
+2025-12-01,Matter of Balance,MOB 30 Day Survey,8.0
+2025-12-01,Care Coordination,Health Education,8.0
+2025-12-01,Care Coordination,CC Financial Assistance,8.0
+2025-12-01,Care Coordination,Appointment Coordination,8.0
+2025-12-01,Care Coordination,AUDIT-C Screening,10.0
+2025-12-01,Care Coordination,Peer Recovery 1 On 1,21.0
+2025-12-01,Care Coordination,Text,23.0
+2025-12-01,Care Coordination,CalAIM Care Plan Update,23.0
+2025-12-01,Care Coordination,Other Service,25.0
+2025-12-01,Care Coordination,PHQ Screening,27.0
+2025-12-01,Care Coordination,Blood Pressure Screening,33.0
+2025-12-01,Care Coordination,Patient Advocacy,47.0
+2025-12-01,Care Coordination,Phone Call,61.0
+2025-12-01,Care Coordination,ECM Check In,117.0
+2025-12-01,Care Coordination,Interpreter,8.0
+2025-12-01,Care Coordination,Established Health Insurance,7.0
+2025-12-01,Care Coordination,DAST-10 Screening,11.0
+2025-12-01,Care Coordination,Transportation,4.0
+2025-12-01,Care Transitions,CT 30 Day Check In,1.0
+2025-12-01,Care Coordination,A1C Screening,5.0
+2025-12-01,Care Coordination,ROI,1.0
+2025-12-01,Care Coordination,Housing Paperwork,1.0
+2025-12-01,Care Coordination,Food Bank Coordination,1.0
+2025-12-01,Care Coordination,Mail-Fax,1.0
+2025-12-01,Care Coordination,Unemployment Paperwork,1.0
+2025-12-01,Care Coordination,Food Paperwork,1.0
+2025-12-01,Care Coordination,Email,2.0
+2025-12-01,Care Coordination,Legal Assistance,2.0
+2025-12-01,Care Coordination,Cholesterol Screening,2.0
+2025-12-01,Care Coordination,Resource Distribution,2.0
+2025-12-01,Care Coordination,Intake Form,3.0
+2025-12-01,Care Coordination,Medication Education,3.0
+2025-12-01,Care Coordination,Medication Pick-Up,1.0
+2026-01-01,Care Coordination,Interpreter,6.0
+2026-01-01,Care Coordination,Health Education,7.0
+2026-01-01,Care Coordination,PHQ Screening,9.0
+2026-01-01,Care Coordination,Peer Recovery 1 On 1,9.0
+2026-01-01,Care Coordination,Text,12.0
+2026-01-01,Care Coordination,Patient Advocacy,38.0
+2026-01-01,Care Coordination,CalAIM Care Plan Update,16.0
+2026-01-01,Care Coordination,Other Service,22.0
+2026-01-01,Care Coordination,Phone Call,47.0
+2026-01-01,Care Coordination,ECM Check In,82.0
+2026-01-01,Care Coordination,Appointment Coordination,5.0
+2026-01-01,Care Coordination,Blood Pressure Screening,13.0
+2026-01-01,Care Coordination,A1C Screening,5.0
+2026-01-01,Care Coordination,AUDIT-C Screening,3.0
+2026-01-01,Care Coordination,Established Health Insurance,4.0
+2026-01-01,Care Coordination,Transportation,5.0
+2026-01-01,Care Coordination,Medication Education,1.0
+2026-01-01,Care Coordination,Resource Distribution,1.0
+2026-01-01,Care Coordination,Food Bank Coordination,1.0
+2026-01-01,Care Coordination,Legal Assistance,2.0
+2026-01-01,Care Coordination,Intake Form,1.0
+2026-01-01,Care Coordination,CC Financial Assistance,2.0
+2026-01-01,Care Coordination,DAST-10 Screening,3.0
+2026-01-01,Care Coordination,Email,2.0
+2026-01-01,Care Coordination,Housing Paperwork,3.0
+2026-01-01,Care Coordination,Cholesterol Screening,3.0
+2026-01-01,Care Coordination,Food Paperwork,2.0
+2026-02-01,Care Coordination,A1C Screening,5.0
+2026-02-01,Care Coordination,Text,10.0
+2026-02-01,Care Coordination,PHQ Screening,6.0
+2026-02-01,Care Coordination,Food Paperwork,7.0
+2026-02-01,Care Coordination,CalAIM Care Plan Update,7.0
+2026-02-01,Care Coordination,Health Education,8.0
+2026-02-01,Care Coordination,Established Health Insurance,10.0
+2026-02-01,Care Coordination,Phone Call,51.0
+2026-02-01,Care Coordination,Peer Recovery 1 On 1,14.0
+2026-02-01,Care Coordination,Interpreter,14.0
+2026-02-01,Care Coordination,Appointment Coordination,18.0
+2026-02-01,Care Coordination,Other Service,31.0
+2026-02-01,Care Coordination,Patient Advocacy,36.0
+2026-02-01,Care Coordination,ECM Check In,91.0
+2026-02-01,Care Coordination,Food Bank Coordination,4.0
+2026-02-01,Care Coordination,Blood Pressure Screening,13.0
+2026-02-01,Care Coordination,Medication Education,4.0
+2026-02-01,Care Coordination,Legal Assistance,1.0
+2026-02-01,Care Coordination,Housing Paperwork,3.0
+2026-02-01,Matter of Balance,MOB Class #3,9.0
+2026-02-01,Matter of Balance,MOB Class #2,10.0
+2026-02-01,Care Transitions,CT 30 Day Check In,1.0
+2026-02-01,Matter of Balance,MOB Class #4,9.0
+2026-02-01,Care Coordination,ECM TAR Submission,1.0
+2026-02-01,Care Coordination,DAST-10 Screening,1.0
+2026-02-01,Care Coordination,AUDIT-C Screening,1.0
+2026-02-01,Matter of Balance,MOB Class #1,12.0
+2026-02-01,Care Coordination,Cholesterol Screening,2.0
+2026-02-01,Care Coordination,Unemployment Paperwork,2.0
+2026-02-01,Care Coordination,Angel Fund Request,3.0
+2026-02-01,Care Coordination,Access Point,2.0
+2026-02-01,Care Coordination,Transportation,4.0
+2026-02-01,Care Coordination,Email,2.0
+2026-02-01,Care Coordination,Medication Pick-Up,2.0
+2026-02-01,Care Coordination,Resource Distribution,2.0
+2026-03-01,Care Coordination,ECM Check In,85.0
+2026-03-01,Care Coordination,Patient Advocacy,30.0
+2026-03-01,Care Coordination,Other Service,23.0
+2026-03-01,Care Coordination,Blood Pressure Screening,8.0
+2026-03-01,Care Coordination,PHQ Screening,7.0
+2026-03-01,Care Coordination,Text,6.0
+2026-03-01,Care Coordination,Peer Recovery 1 On 1,6.0
+2026-03-01,Care Coordination,Interpreter,5.0
+2026-03-01,Care Coordination,Health Education,5.0
+2026-03-01,Care Coordination,Phone Call,57.0
+2026-03-01,Care Coordination,Food Bank Coordination,4.0
+2026-03-01,Care Coordination,Transportation,3.0
+2026-03-01,Care Coordination,Established Health Insurance,5.0
+2026-03-01,Matter of Balance,MOB Class #6,11.0
+2026-03-01,Care Coordination,Email,1.0
+2026-03-01,Care Coordination,Unemployment Paperwork,1.0
+2026-03-01,Matter of Balance,MOB Class #5,12.0
+2026-03-01,Care Coordination,Food Paperwork,2.0
+2026-03-01,Care Coordination,Housing Paperwork,2.0
+2026-03-01,Care Coordination,Medication Pick-Up,2.0
+2026-03-01,Care Coordination,Appointment Coordination,3.0
+2026-03-01,Care Coordination,CalAIM Care Plan Update,2.0
+2026-04-01,Care Coordination,PHQ Screening,7.0
+2026-04-01,Care Coordination,DAST-10 Screening,5.0
+2026-04-01,Care Coordination,Peer Recovery 1 On 1,5.0
+2026-04-01,Care Coordination,Interpreter,6.0
+2026-04-01,Care Coordination,Transportation,6.0
+2026-04-01,Care Coordination,Blood Pressure Screening,9.0
+2026-04-01,Care Coordination,Patient Advocacy,33.0
+2026-04-01,Care Coordination,AUDIT-C Screening,5.0
+2026-04-01,Care Coordination,Text,14.0
+2026-04-01,Care Coordination,Other Service,24.0
+2026-04-01,Care Coordination,Phone Call,41.0
+2026-04-01,Care Coordination,ECM Check In,84.0
+2026-04-01,Care Coordination,Appointment Coordination,10.0
+2026-04-01,Care Coordination,ECM TAR Submission,3.0
+2026-04-01,Care Coordination,Medication Pick-Up,1.0
+2026-04-01,Care Coordination,Established Health Insurance,2.0
+2026-04-01,Care Coordination,ROI,3.0
+2026-04-01,Chronic Care Management,Healthy Living Class #4,5.0
+2026-04-01,Chronic Care Management,Healthy Living Class #3,7.0
+2026-04-01,Chronic Care Management,Healthy Living Class #2,10.0
+2026-04-01,Care Coordination,Intake Form,1.0
+2026-04-01,Care Coordination,CalAIM Care Plan Update,1.0
+2026-04-01,Chronic Care Management,Healthy Living Class #5,5.0
+2026-04-01,Care Coordination,Health Education,2.0
+2026-04-01,Care Coordination,Food Paperwork,2.0
+2026-04-01,Care Coordination,Food Bank Coordination,2.0
+2026-04-01,Care Coordination,Legal Assistance,2.0
+2026-04-01,Care Coordination,CC Financial Assistance,2.0
+2026-04-01,Care Coordination,Mail-Fax,1.0
+2026-05-01,Care Coordination,Email,8.0
+2026-05-01,Care Coordination,Peer Recovery 1 On 1,8.0
+2026-05-01,Care Coordination,Blood Pressure Screening,8.0
+2026-05-01,Care Coordination,PHQ Screening,9.0
+2026-05-01,Care Coordination,Text,13.0
+2026-05-01,Care Coordination,Phone Call,35.0
+2026-05-01,Care Coordination,Other Service,32.0
+2026-05-01,Care Coordination,Patient Advocacy,38.0
+2026-05-01,Care Coordination,ECM Check In,93.0
+2026-05-01,Care Coordination,Interpreter,5.0
+2026-05-01,Care Coordination,Appointment Coordination,15.0
+2026-05-01,Care Coordination,Food Paperwork,3.0
+2026-05-01,Care Coordination,Resource Distribution,2.0
+2026-05-01,Care Coordination,Medication Education,2.0
+2026-05-01,Chronic Care Management,Healthy Living Class #5/6,5.0
+2026-05-01,Care Coordination,Housing Paperwork,3.0
+2026-05-01,Care Coordination,DAST-10 Screening,1.0
+2026-05-01,Care Coordination,AUDIT-C Screening,1.0
+2026-05-01,Care Coordination,Medication Pick-Up,1.0
+2026-05-01,Care Coordination,CalAIM Care Plan Update,1.0
+2026-05-01,Care Coordination,Legal Assistance,1.0
+2026-05-01,Care Coordination,Access Point,2.0
+2026-05-01,Care Coordination,A1C Screening,2.0
+2026-05-01,Care Coordination,Food Bank Coordination,2.0
+2026-05-01,Care Coordination,Transportation,2.0
+2026-05-01,Care Coordination,Established Health Insurance,2.0
+2026-06-01,Care Coordination,ECM Check In,82.0
+2026-06-01,Care Coordination,Phone Call,61.0
+2026-06-01,Care Coordination,Patient Advocacy,47.0
+2026-06-01,Care Coordination,Other Service,29.0
+2026-06-01,Care Coordination,Interpreter,6.0
+2026-06-01,Care Coordination,Appointment Coordination,14.0
+2026-06-01,Care Coordination,Blood Pressure Screening,13.0
+2026-06-01,Care Coordination,PHQ Screening,12.0
+2026-06-01,Care Coordination,Peer Recovery 1 On 1,9.0
+2026-06-01,Care Coordination,Established Health Insurance,6.0
+2026-06-01,Care Coordination,Text,15.0
+2026-06-01,Care Coordination,Access Point,5.0
+2026-06-01,Care Coordination,Housing Paperwork,4.0
+2026-06-01,Care Coordination,Food Paperwork,4.0
+2026-06-01,Care Coordination,Transportation,3.0
+2026-06-01,Care Coordination,Food Bank Coordination,2.0
+2026-06-01,Care Coordination,Home Visit,2.0
+2026-06-01,Care Coordination,Resource Distribution,2.0
+2026-06-01,Care Coordination,Legal Assistance,1.0
+2026-06-01,Care Coordination,Medication Pick-Up,1.0
+2026-06-01,Care Coordination,Administrative Client Assistance,1.0
+2026-06-01,Care Coordination,Email,5.0
+2026-07-01,Care Coordination,Legal Assistance,2.0
+2026-07-01,Care Coordination,Home Visit,2.0
+2026-07-01,Care Coordination,Food Paperwork,2.0
+2026-07-01,Care Coordination,A1C Screening,2.0
+2026-07-01,Care Coordination,Access Point,1.0
+2026-07-01,Care Coordination,Health Education,1.0
+2026-07-01,Care Coordination,Resource Distribution,1.0
+2026-07-01,Care Coordination,Established Health Insurance,3.0
+2026-07-01,Care Coordination,Medication Education,1.0
+2026-07-01,Care Coordination,Email,4.0
+2026-07-01,Care Coordination,Medication Pick-Up,7.0
+2026-07-01,Care Coordination,Blood Pressure Screening,6.0
+2026-07-01,Care Coordination,Interpreter,6.0
+2026-07-01,Care Coordination,Food Bank Coordination,6.0
+2026-07-01,Care Coordination,AUDIT-C Screening,1.0
+2026-07-01,Care Coordination,Peer Recovery 1 On 1,8.0
+2026-07-01,Care Coordination,Housing Paperwork,10.0
+2026-07-01,Care Coordination,Text,20.0
+2026-07-01,Care Coordination,Appointment Coordination,26.0
+2026-07-01,Care Coordination,Other Service,40.0
+2026-07-01,Care Coordination,Patient Advocacy,50.0
+2026-07-01,Care Coordination,Phone Call,61.0
+2026-07-01,Care Coordination,PHQ Screening,5.0
+2026-07-01,Care Coordination,DAST-10 Screening,1.0
+2026-07-01,Care Coordination,ECM Check In,84.0
+2026-08-01,Care Coordination,Phone Call,47.0
+2026-08-01,Care Coordination,CT Home Visit - Initial,1.0
+2026-08-01,Care Coordination,Established Health Insurance,1.0
+2026-08-01,Care Coordination,A1C Screening,1.0
+2026-08-01,Care Coordination,Medication Education,1.0
+2026-08-01,Care Coordination,ROI,1.0
+2026-08-01,Care Coordination,Unemployment Paperwork,1.0
+2026-08-01,Care Coordination,Legal Assistance,1.0
+2026-08-01,Care Coordination,Home Visit,2.0
+2026-08-01,Care Coordination,Housing Paperwork,2.0
+2026-08-01,Care Coordination,Food Paperwork,2.0
+2026-08-01,Care Coordination,Mail-Fax,2.0
+2026-08-01,Care Coordination,Blood Pressure Screening,3.0
+2026-08-01,Care Coordination,Interpreter,4.0
+2026-08-01,Care Coordination,Health Education,4.0
+2026-08-01,Care Coordination,Access Point,4.0
+2026-08-01,Care Coordination,Email,5.0
+2026-08-01,Care Coordination,Text,6.0
+2026-08-01,Care Coordination,Food Bank Coordination,6.0
+2026-08-01,Care Coordination,Medication Pick-Up,7.0
+2026-08-01,Care Coordination,Appointment Coordination,9.0
+2026-08-01,Care Coordination,Peer Recovery Meeting,11.0
+2026-08-01,Care Coordination,Other Service,25.0
+2026-08-01,Care Coordination,Patient Advocacy,38.0
+2026-08-01,Care Coordination,ECM Check In,76.0
+2026-08-01,Care Coordination,Peer Recovery 1 On 1,10.0
