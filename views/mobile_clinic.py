@@ -79,8 +79,13 @@ SITE_COLORS = {  # tints that echo the colors on the public flyers
 }
 
 
+def _mtime(name):
+    p = DATA / name
+    return p.stat().st_mtime if p.exists() else 0.0
+
+
 @st.cache_data
-def _schedule():
+def _schedule(sig):
     p = DATA / "clinic_schedule.csv"
     if not p.exists():
         return pd.DataFrame(columns=["date", "site", "hours", "note"])
@@ -90,12 +95,12 @@ def _schedule():
 
 
 @st.cache_data
-def _visits():
+def _visits(sig):
     p = DATA / "clinic_visits.csv"
     return pd.read_csv(p, parse_dates=["date"]) if p.exists() else pd.DataFrame()
 
 
-sch = _schedule()
+sch = _schedule(_mtime("clinic_schedule.csv"))
 st.subheader("Where the clinic went, day by day")
 if sch.empty:
     st.info("No schedule loaded yet.")
@@ -153,7 +158,7 @@ else:
 
 # ------------------------------------------------------------- services and patients by site
 st.subheader("Services at each site")
-v = _visits()
+v = _visits(_mtime("clinic_visits.csv"))
 if v.empty:
     brand.note("<b>Coming once the eCW visit data is loaded.</b> This section will show the types of visits at "
                "each site (office visit, MAT, urgent care, telehealth, women's health, physicals) and the average "
