@@ -25,7 +25,7 @@ One page per type of workbook tab, with a single month picker in the sidebar ins
 | Health Screenings | Monthly tabs, Screening block; people screened in/out of range |
 | Resources & Narcan | Monthly tabs, Resource Distribution block |
 | Referrals | Monthly Program Summary, Outreach Referrals + MHA CalAIM Self-Referral |
-| Mobile Clinic | Monthly Clinical Summary; weekly site schedule; planned clinic metrics |
+| Mobile Clinic | Monthly Clinical Summary; monthly site calendar (`data/clinic_schedule.csv`); visit types and patients per day by site (`data/clinic_visits.csv`, from eCW 4.02, totals only) |
 | About the Data | Sources, glossary, caveats, how to update |
 
 ## Update each month
