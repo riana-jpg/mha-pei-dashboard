@@ -1,0 +1,13 @@
+[theme]
+base = "light"
+primaryColor = "#1F3A5F"          # MHA Coastal Navy
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F1EA"  # warm sand, pairs with Heritage Gold
+textColor = "#1C2430"
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
