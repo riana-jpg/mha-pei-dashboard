@@ -100,7 +100,14 @@ def _visits(sig):
     return pd.read_csv(p, parse_dates=["date"]) if p.exists() else pd.DataFrame()
 
 
-sch = _schedule(_mtime("clinic_schedule.csv"))
+@st.cache_data
+def _days(sig):
+    p = DATA / "clinic_days.csv"
+    return pd.read_csv(p, parse_dates=["date"]) if p.exists() else pd.DataFrame()
+
+
+cm = None
+sch =_schedule(_mtime("clinic_schedule.csv"))
 st.subheader("Where the clinic went, day by day")
 if sch.empty:
     st.info("No schedule loaded yet.")
@@ -166,11 +173,17 @@ if v.empty:
                "totals by date, site and visit type from eCW report 4.02, with no patient identifiers.")
 else:
     v["month"] = v["date"].dt.to_period("M").dt.to_timestamp()
-    vm = v[v["month"] == m]
+    want = cm if cm is not None else m
+    vm = v[v["month"] == want]
     if vm.empty:
         vm_month = v["month"].max()
-        brand.note(f"Visit detail runs through <b>{brand.month_label(vm_month)}</b>. Showing that month.")
+        brand.note(f"No visit detail for {brand.month_label(want)} yet; it runs "
+                   f"{brand.month_label(v['month'].min())} to <b>{brand.month_label(vm_month)}</b>. "
+                   f"Showing {brand.month_label(vm_month)}.")
         vm = v[v["month"] == vm_month]
+    shown = vm["month"].iloc[0]
+    st.caption(f"{brand.month_label(shown)}: {int(vm['encounters'].sum())} completed visits on "
+               f"{vm['date'].nunique()} clinic days. Follows the calendar month picked above.")
     sites = list(vm.groupby("site")["encounters"].sum().sort_values(ascending=False).index)
     site_pick = st.radio("Site", ["All sites"] + sites, horizontal=True, key="svc_site")
     sel = vm if site_pick == "All sites" else vm[vm["site"] == site_pick]
@@ -190,7 +203,11 @@ else:
     st.plotly_chart(fig4, width="stretch")
 
     st.subheader("Average patients per clinic day, by site")
-    daily = vm.groupby(["site", "date"])["patients"].sum().reset_index()
+    dd = _days(_mtime("clinic_days.csv"))
+    if not dd.empty:  # unique patients per day (a person with two visit types that day counts once)
+        daily = dd[dd["date"].dt.to_period("M").dt.to_timestamp() == shown]
+    else:
+        daily = vm.groupby(["site", "date"])["patients"].sum().reset_index()
     avg = daily.groupby("site").agg(days=("date", "nunique"), patients=("patients", "sum")).reset_index()
     avg["per_day"] = avg["patients"] / avg["days"]
     avg = avg.sort_values("per_day")
@@ -202,7 +219,9 @@ else:
     fig5.update_layout(height=max(260, 46 * len(avg) + 90), xaxis_title="Patients per clinic day")
     st.plotly_chart(fig5, width="stretch")
     brand.note("Patients per day counts each person once per day at that site, divided by the days the clinic "
-               "saw at least one patient there. Telehealth visits count under the site scheduled that day.")
+               "saw at least one patient there. Telehealth visits count under the site scheduled that day. "
+               "Source: eCW 4.02 Encounter Patient Download, MHA Mobile Clinic facility, checked-out visits only "
+               "(cancelled, pending and no-show appointments excluded). Totals only, no patient identifiers.")
 
 st.subheader("Coming next")
 st.markdown(
