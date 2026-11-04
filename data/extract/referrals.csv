@@ -12,8 +12,20 @@ month,destination,count
 2026-04-01,MHA,8.0
 2026-05-01,Other,7.0
 2026-05-01,MHA (Self-Referral),9.0
-2026-06-01,Other,2.0
 2026-06-01,MHA (Self-Referral),3.0
+2026-06-01,Other,2.0
 2026-07-01,RCMS,2.0
 2026-07-01,MHA (Self-Referral),4.0
 2026-08-01,MHA (Self-Referral),1.0
+2026-09-01,N/A (no destination entered),1.0
+2026-09-01,MHA (Self-Referral),2.0
+2026-09-01,RCMS,1.0
+2026-09-01,Coastal Sr,1.0
+2026-09-01,Social Services,1.0
+2026-09-01,MediCare,1.0
+2026-10-01,MHA (Self-Referral),11.0
+2026-10-01,Other,5.0
+2026-10-01,RCMS,1.0
+2026-10-01,Food Bank,1.0
+2026-10-01,Transportation,1.0
+2026-10-01,N/A (no destination entered),1.0
