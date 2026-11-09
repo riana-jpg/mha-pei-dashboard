@@ -13,6 +13,7 @@ brand.inject_css()
 pages = {
     "Start here": [
         st.Page("views/overview.py", title="Monthly Snapshot", icon=":material/dashboard:", default=True),
+        st.Page("views/quarterly.py", title="Quarterly Summary", icon=":material/calendar_view_month:"),
     ],
     "Program activity": [
         st.Page("views/activities.py", title="Services & Activities", icon=":material/volunteer_activism:"),
@@ -21,7 +22,6 @@ pages = {
     "Community health": [
         st.Page("views/screenings.py", title="Health Screenings", icon=":material/monitor_heart:"),
         st.Page("views/resources.py", title="Resources & Narcan", icon=":material/inventory_2:"),
-        st.Page("views/referrals.py", title="Referrals", icon=":material/call_split:"),
     ],
     "Clinical": [
         st.Page("views/mobile_clinic.py", title="Mobile Clinic", icon=":material/local_shipping:"),
@@ -45,6 +45,16 @@ with st.sidebar:
         pick = st.selectbox("Reporting month", labels, key="month_pick",
                             help="Every page updates to show this month.")
         st.session_state["month"] = months[labels.index(pick)]
+        try:
+            import report_pdf
+            st.download_button(
+                "Download this month as a PDF",
+                data=report_pdf.build(d, st.session_state["month"]),
+                file_name=f"PEI_Report_{st.session_state['month']:%Y-%m}.pdf",
+                mime="application/pdf", width="stretch",
+                help="A one-file summary of the selected month for the committee's shared folder.")
+        except Exception as e:  # never let the export break the dashboard
+            st.caption(f"PDF export unavailable: {e}")
     else:
         st.warning("No monthly tabs found in the workbook.")
     st.divider()

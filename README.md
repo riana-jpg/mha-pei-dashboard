@@ -58,3 +58,12 @@ because they include CHW names and billing figures.
 - Bundled data: workbooks through 02/28/26, 07/31/26 and 08/31/26 (newest wins per month). Data runs April 2025 to August 2026.
 - June 2026 and July 2026 CalAIM counts are not in the August workbook; July (81) comes from the July workbook. June is blank.
 - Narcan units were mixed between boxes and doses in some months.
+
+## November 2026 updates (from the 11/9 PEI meeting)
+
+- **Referrals removed.** The committee agreed the counts were incomplete. The Snapshot card is now *Share needing follow-up*.
+- **Quarterly Summary page.** Fiscal quarters (July to June). Activity counts add up across the quarter; clients and CalAIM are the last month on file.
+- **PDF export.** Sidebar button *Download this month as a PDF*, or `python report_pdf.py 2026-10 out.pdf`.
+- **Notes on a month.** Add a row to `data/notes.csv` (`month,page,note`; page is `snapshot`, `activities`, `calaim`, `mobile_clinic` or `all`) to explain a low month, such as a provider out.
+- **Site names folded together** in `metrics.py` (`SITE_ALIASES`) until eCW uses one name per site.
+- **Provider breakdown** on the Mobile Clinic page appears once `data/clinic_visits.csv` has a `provider` column.
