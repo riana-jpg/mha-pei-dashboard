@@ -1087,11 +1087,12 @@ month,section,metric,value
 2026-07-01,Screening People Counts,Chronic Care Mgmt Activities,3.0
 2026-08-01,Screening People Counts,All services,269.0
 2026-08-01,Total Clients In Program,Matter of Balance,0.0
-2026-08-01,Outreach Referrals,Total,1.0
+2026-08-01,Outreach Referrals,Total,10.0
+2026-08-01,Outreach Referrals,Destination pending (eR re-pull),9.0
 2026-08-01,Outreach Referrals,Other,0.0
 2026-08-01,Total Clients In Program,Total,135.0
 2026-08-01,Screening People Counts,Care Coordination Services,269.0
-2026-08-01,Screening People Counts,Resources Distributed,85.0
+2026-08-01,Screening People Counts,Resources Distributed,52.0
 2026-08-01,Screening People Counts,Avg Services/Client,1.99259259259259
 2026-08-01,Screening People Counts,People In Range,1.0
 2026-08-01,Screening People Counts,People Out of Range,6.0
@@ -1111,7 +1112,7 @@ month,section,metric,value
 2026-09-01,Outreach Referrals,Other,3.0
 2026-09-01,Total Clients In Program,Care Transitions,2.0
 2026-09-01,Screening People Counts,Care Transition Services,1.0
-2026-09-01,Screening People Counts,Resources Distributed,72.0
+2026-09-01,Screening People Counts,Resources Distributed,43.0
 2026-09-01,Screening People Counts,All services,306.0
 2026-09-01,Screening People Counts,Total Screened,23.0
 2026-09-01,Screening People Counts,MOB Activities,0.0
@@ -1127,7 +1128,7 @@ month,section,metric,value
 2026-10-01,Screening People Counts,Avg Services/Client,1.84444444444444
 2026-10-01,Outreach Referrals,Total,20.0
 2026-10-01,Screening People Counts,% Out of Range,0.476190476190476
-2026-10-01,Screening People Counts,Resources Distributed,191.0
+2026-10-01,Screening People Counts,Resources Distributed,105.0
 2026-10-01,Outreach Referrals,Coastal Sr,0.0
 2026-10-01,Total Clients In Program,Care Coordination,134.0
 2026-10-01,Total Clients In Program,Matter of Balance,0.0
