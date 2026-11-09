@@ -73,6 +73,8 @@ def fmt_num(v, pct=False):
         return "—"
     if pct:
         return f"{v:.0%}"
+    if isinstance(v, float) and abs(v) < 10 and v != int(v):
+        return f"{v:.1f}"  # small rates like 4.6 visits per day
     return f"{v:,.0f}"
 
 
@@ -81,7 +83,9 @@ def kpi(label, value, prior=None, prior_label="vs last month", pct=False, gold=F
     if prior is not None and value is not None and not pd.isna(prior) and not pd.isna(value):
         diff = value - prior
         if pct:
-            txt = f"{diff*100:+.0f} pts {prior_label}"
+            pts = round(diff * 100)
+            txt = f"{pts:+d} pts {prior_label}" if pts else f"no change {prior_label}"
+            diff = pts
         else:
             txt = f"{diff:+,.0f} {prior_label}"
         cls = "up" if diff > 0 else "down" if diff < 0 else ""
@@ -100,3 +104,10 @@ def note(text: str):
 
 def month_label(m) -> str:
     return pd.Timestamp(m).strftime("%B %Y")
+
+
+def month_notes(month, page: str):
+    """Show any notes from data/notes.csv for this month (staff absences, special events)."""
+    import metrics
+    for t in metrics.month_notes(month, page):
+        note(f"<b>Note for {month_label(month)}:</b> {t}")
