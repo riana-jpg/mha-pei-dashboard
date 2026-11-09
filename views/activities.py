@@ -12,6 +12,7 @@ if m is None:
     st.stop()
 brand.page_header("Services & Activities",
                   f"What our care coordinators, CHWs and peer coaches did in {brand.month_label(m)}.")
+brand.month_notes(m, "activities")
 
 a = d.activities[d.activities["month"] == m]
 if a.empty:

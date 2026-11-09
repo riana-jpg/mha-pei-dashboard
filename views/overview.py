@@ -3,6 +3,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 import brand
+import metrics
 import state
 
 d = state.data()
@@ -23,19 +24,22 @@ def cal(month):
 def enc(month):
     return float(clinic_m.loc[month]) if month in clinic_m.index else None
 
-metrics = [
+cards = [
     ("Clients in programs", lambda x: state.value_for("Total", x, "Total Clients In Program"), False),
     ("Services provided", lambda x: state.value_for("All services", x), False),
     ("People screened", lambda x: state.value_for("Total Screened", x), True),
     ("Resources distributed", lambda x: state.value_for("Resources Distributed", x), True),
-    ("Outreach referrals", lambda x: state.value_for("Total", x, "Outreach Referrals"), False),
+    ("Share needing follow-up", lambda x: metrics.month_row(d, x)["followup_share"], False),
     ("CalAIM members (ECM + CS)", cal, True),
 ]
 
+brand.month_notes(m, "snapshot")
 cols = st.columns(3)
-for i, (label, fn, gold) in enumerate(metrics):
+for i, (label, fn, gold) in enumerate(cards):
     with cols[i % 3]:
-        brand.kpi(label, fn(m), fn(pm), gold=gold)
+        pct = label == "Share needing follow-up"
+        brand.kpi(label, fn(m), fn(pm), gold=gold, pct=pct,
+                  help_text="People with an out-of-range screening divided by people screened" if pct else None)
         st.write("")
 
 brand.note(
@@ -67,7 +71,9 @@ for i, (title, s) in enumerate(trend_specs):
 
 st.subheader("Same month last year")
 rows = []
-for label, fn, _ in metrics:
+for label, fn, _ in cards:
+    if label == "Share needing follow-up":
+        continue  # a percentage; shown on the Health Screenings page
     cur, prev = fn(m), fn(ly)
     rows.append({"Measure": label, brand.month_label(m): cur, brand.month_label(ly): prev,
                  "Change": (cur - prev) if cur is not None and prev is not None else None})

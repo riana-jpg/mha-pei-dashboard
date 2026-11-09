@@ -13,7 +13,6 @@ st.markdown("""
 | Services & Activities | eClinicalWorks (eCW) | Cal AIM Reporting; Action Structured Data (4.28); CCMR 51.03 group classes |
 | Health Screenings | eCW and Extended Reach (eR) | Preventive Raw Data (enrolled clients); eR screening results (walk-up community screenings) |
 | Resources & Narcan | eR, plus eCW lookups | eR resource/outreach report; eCW for items given to enrolled clients |
-| Referrals | eR and CalAIM files | eR outreach referrals; CalAIM self-referrals from the RTF/MIF |
 | Clients & CalAIM | eCW and Partnership files | CCMR 2.01 (program enrollment); monthly ECM/CS RTF (official CalAIM count) |
 | Mobile Clinic | eCW | 4.02 Encounter Patient Download, MHA Mobile Clinic facility |
 """)
@@ -35,8 +34,12 @@ st.markdown("""
 - All numbers are **totals only**. No names, birth dates or IDs are stored in this dashboard.
 - **Services are not people.** One person can receive many services in a month.
 - Detailed month-by-month pages start in **April 2025**, when MHA moved to eCW. Longer trends (clients, services,
-  screenings, resources, referrals) go back to **March 2022**.
-- **Narcan units:** some months were recorded as boxes and some as doses. Treat month-to-month Narcan changes with care until this is standardized.
+  screenings, resources) go back to **March 2022**.
+- **Narcan units:** reported in boxes, month by month, from August 2026 on (one box holds 2 doses). Earlier months mixed boxes and doses, so compare them with care.
+- **Referrals are no longer shown.** The committee agreed on November 9, 2026 to remove them: referrals are tracked in a separate system and entered inconsistently, so the counts gave an inaccurate picture.
+- **Mobile clinic site names** are folded together where eCW has more than one spelling of the same site (for example Two Fish, 2Fish and Twofish Bakery). This stays in place until the medical record uses one name per site.
+- **Quarters** follow MHA's fiscal year (July to June). Q1 is July to September.
+- **Notes on a month** (for example a provider out) come from `data/notes.csv` and appear on the matching page.
 - The most recent month may be **partial** if it was pulled before the month ended.
 """)
 

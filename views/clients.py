@@ -12,6 +12,7 @@ if m is None:
     st.stop()
 pm = state.prior_month(m)
 brand.page_header("Clients & CalAIM", f"Who was enrolled in MHA programs in {brand.month_label(m)}.")
+brand.month_notes(m, "calaim")
 
 progs = ["Care Coordination", "Care Transitions", "Matter of Balance", "Chronic Care Management"]
 c = st.columns(5)

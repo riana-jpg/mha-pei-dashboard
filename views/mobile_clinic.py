@@ -4,6 +4,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 import brand
+import metrics
 import state
 
 d = state.data()
@@ -13,9 +14,9 @@ if m is None:
 brand.page_header("Mobile Clinic",
                   "Primary care on wheels: where the clinic went, how many visits it had, and who it served.")
 
-k = d.clinic.copy()
-OTHER = ("flu", "physical")
-k["kind"] = k["site"].str.lower().apply(lambda s: "Special event" if any(o in s for o in OTHER) else "Clinic day")
+brand.month_notes(m, "mobile_clinic")
+
+k = metrics.clinic_by_site(d)  # one name per site (eCW spellings folded together)
 reg = k[k["kind"] == "Clinic day"]
 by_month = reg.groupby("month").agg(encounters=("encounters", "sum"), days=("days", "sum"))
 by_month["per_day"] = by_month["encounters"] / by_month["days"].where(by_month["days"] > 0)
@@ -97,13 +98,21 @@ def _schedule(sig):
 @st.cache_data
 def _visits(sig):
     p = DATA / "clinic_visits.csv"
-    return pd.read_csv(p, parse_dates=["date"]) if p.exists() else pd.DataFrame()
+    if not p.exists():
+        return pd.DataFrame()
+    v = pd.read_csv(p, parse_dates=["date"])
+    v["site"] = v["site"].map(metrics.canonical_site)
+    return v
 
 
 @st.cache_data
 def _days(sig):
     p = DATA / "clinic_days.csv"
-    return pd.read_csv(p, parse_dates=["date"]) if p.exists() else pd.DataFrame()
+    if not p.exists():
+        return pd.DataFrame()
+    dd = pd.read_csv(p, parse_dates=["date"])
+    dd["site"] = dd["site"].map(metrics.canonical_site)
+    return dd
 
 
 cm = None
@@ -223,6 +232,25 @@ else:
                "Source: eCW 4.02 Encounter Patient Download, MHA Mobile Clinic facility, checked-out visits only "
                "(cancelled, pending and no-show appointments excluded). Totals only, no patient identifiers.")
 
+# ------------------------------------------------------------- visits by provider, per clinic day
+st.subheader("Visits by provider, each clinic day")
+if v.empty or "provider" not in v.columns:
+    brand.note("<b>Coming once provider is added to the visit data.</b> This chart will show each clinic day as "
+               "one bar, split into two colors by provider, so you can see how many patients each provider saw "
+               "per service day. It needs a <code>provider</code> column in <code>data/clinic_visits.csv</code> "
+               "(the rendering provider from eCW report 4.02).")
+else:
+    vp = v[v["date"].dt.to_period("M").dt.to_timestamp() == shown]
+    per_day = vp.groupby(["date", "provider"])["encounters"].sum().reset_index()
+    fig6 = px.bar(per_day, x="date", y="encounters", color="provider", barmode="stack",
+                  labels={"encounters": "Visits", "date": "", "provider": "Provider"},
+                  color_discrete_sequence=[brand.NAVY, brand.GOLD] + brand.PALETTE[2:])
+    fig6.update_layout(height=340, xaxis_tickformat="%b %d")
+    st.plotly_chart(fig6, width="stretch")
+    tot = vp.groupby("provider").agg(visits=("encounters", "sum"), days=("date", "nunique"))
+    tot["Visits per day worked"] = (tot["visits"] / tot["days"]).round(1)
+    st.dataframe(tot.rename(columns={"visits": "Visits", "days": "Days worked"}), width="stretch")
+
 st.subheader("Coming next")
 st.markdown(
     "Still to come from eCW:\n"
@@ -230,5 +258,6 @@ st.markdown(
     "- New vs. returning patients, and total enrolled\n"
     "- Insurance (payer) mix\n"
     "- Age group, gender, language, ethnicity and ZIP code of patients\n"
-    "- Patients with high blood pressure, diabetes or obesity, by age group and gender"
+    "- Patients with high blood pressure, diabetes or obesity, by age group and gender\n"
+    "- Colorectal cancer screening (quality measure), once it starts being tracked"
 )
