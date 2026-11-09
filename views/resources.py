@@ -28,7 +28,7 @@ with c[0]:
     brand.kpi("Items distributed", items["count"].sum() if not items.empty else None,
               state.value_for("Resources Distributed", pm))
 with c[1]:
-    brand.kpi("Narcan", narcan if narcan else None, narcan_p if narcan_p else None, gold=True)
+    brand.kpi("Narcan (boxes)", narcan if narcan else None, narcan_p if narcan_p else None, gold=True)
 with c[2]:
     brand.kpi("Fentanyl test strips", fts if fts else None)
 with c[3]:
@@ -49,9 +49,9 @@ else:
     st.plotly_chart(fig, width="stretch")
 
 brand.note(
-    "<b>About Narcan counts.</b> Narcan has been recorded in eR both as boxes and as doses "
-    "(one box holds 2 doses; each harm-reduction bag holds 2 doses). Month-to-month Narcan "
-    "numbers may not be directly comparable until a single unit is confirmed."
+    "<b>About Narcan counts.</b> Narcan is reported in boxes, month by month (one box holds 2 doses). "
+    "August to October 2026 are box counts from eR. Earlier months were recorded as a mix of boxes "
+    "and doses, so compare them with care."
 )
 
 st.subheader("Resources over time")
